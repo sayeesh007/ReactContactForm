@@ -1,0 +1,88 @@
+#root {
+  margin: 0 10%;
+  padding: 0;
+  box-sizing: border-box;
+  --black: #000;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+nav ul li{
+  font-weight: 600;
+  font-size: 16px;
+}
+.hero{
+  margin: 0 5vw;
+}
+.hero-top{
+  margin: 10 0;
+}
+.hero-title{
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.hero-desc{
+  font-weight: 500;
+  font-size: 16px;
+  color: grey;
+}
+
+.hero-bottom{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input{
+  padding-left: 10px;
+  height: 40px;
+  width: calc(100%-10px);
+  
+}
+
+.contact-form .name-div , .email-div,.desc-div{
+  position: relative;
+  width: 100%;
+
+}
+
+.contact-form .label-name,.label-email,.label-desc{
+  position: absolute;
+  background-color: #fff;
+  padding: 0 5px ;
+  top:-12px;
+  left: 10px;
+}
+
+
+
+.contact-form button{
+  all: unset;
+  background-color: var(--black);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.hero-bottom img{
+  height: 65vh;
+}
